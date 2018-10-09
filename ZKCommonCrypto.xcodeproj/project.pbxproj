@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		CFE584D321609E3A001296CB /* ZKCommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE584D121609E3A001296CB /* ZKCommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE584DB21609E4E001296CB /* ZKCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE584D921609E4E001296CB /* ZKCrypto.m */; };
+		CFE584DC21609E4E001296CB /* ZKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE584DA21609E4E001296CB /* ZKCrypto.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CFE584CE21609E3A001296CB /* ZKCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZKCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE584D121609E3A001296CB /* ZKCommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKCommonCrypto.h; sourceTree = "<group>"; };
 		CFE584D221609E3A001296CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE584D921609E4E001296CB /* ZKCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCrypto.m; sourceTree = "<group>"; };
+		CFE584DA21609E4E001296CB /* ZKCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCrypto.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				CFE584D121609E3A001296CB /* ZKCommonCrypto.h */,
 				CFE584D221609E3A001296CB /* Info.plist */,
+				CFE584DA21609E4E001296CB /* ZKCrypto.h */,
+				CFE584D921609E4E001296CB /* ZKCrypto.m */,
 			);
 			path = ZKCommonCrypto;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE584D321609E3A001296CB /* ZKCommonCrypto.h in Headers */,
+				CFE584DC21609E4E001296CB /* ZKCrypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE584DB21609E4E001296CB /* ZKCrypto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
